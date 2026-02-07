@@ -20,7 +20,7 @@ const Computers = ({isMobile}) => {
         />
         <primitive 
           object={computer.scene} 
-          scale={isMobile ? 0.4 : 0.75}
+          scale={isMobile ? 0.4 : 0.7}
           position={isMobile ? [0, -2, -1] : [0, -2.8, -1]}
           rotation={[-0.01, -0.2, -0.1]}
         />
@@ -29,12 +29,12 @@ const Computers = ({isMobile}) => {
 }
 
 const ComputersCanvas = () => {
-  // Create an isMoblie variable which is set to true if the device has <= 1300px maximum width
+  // Create an isMoblie variable which is set to true if the device has <= 700px maximum width
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     // Add a listener for changes to the screen size
-    const mediaQuery = window.matchMedia("(max-width: 1300px)");
+    const mediaQuery = window.matchMedia("(max-width: 700px)");
 
     // Set the initial value of the `isMobile` state variable
     setIsMobile(mediaQuery.matches);

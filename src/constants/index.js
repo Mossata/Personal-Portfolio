@@ -38,7 +38,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work Experience",
+    title: "Experience",
   },
   {
     id: "contact",
@@ -217,6 +217,7 @@ const testimonials = [
 const projects = [
   {
     name: "Unpaid Overtime",
+    date: "July - November 2025",
     description:
       "A 12 week University project in which 5 other developers and I created a Horror/Puzzle virtual reality experience. The game was developed with the Unity engine and then deployed to Meta Quest 3 (Android) using Meta XR SDK",
     tags: [
@@ -237,9 +238,10 @@ const projects = [
     source_code_link: "https://github.com/Mossata/Unpaid-Overtime-SSSS",
   },
   {
-    name: "Personal Portfolio Website",
+    name: "Personal Web Portfolio",
+    date: "January - February 2026",
     description:
-      "The website you are currently looking at! This portfolio is a react based web app utilising tailwindCSS for styling and threejs packages to import and show 3D models.",
+      "The website you are currently looking at! This portfolio is a react based web app utilising tailwindCSS for styling and threejs packages to import and show 3D models. It is highly scalable and will showcase even more in the future!",
     tags: [
       {
         name: "react",
