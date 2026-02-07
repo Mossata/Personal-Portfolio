@@ -37,6 +37,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import unpaid from "./unpaidovertime.png";
+import portfolio from "./portfolio.png";
 
 export {
   logo,
@@ -77,4 +78,5 @@ export {
   jobit,
   tripguide,
   unpaid,
+  portfolio,
 };

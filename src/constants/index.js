@@ -28,6 +28,7 @@ import {
   jobit,
   tripguide,
   unpaid,
+  portfolio,
 } from "../assets";
 
 export const navLinks = [
@@ -220,7 +221,7 @@ const projects = [
       "A 12 week University project in which 5 other developers and I created a Horror/Puzzle virtual reality experience. The game was developed with the Unity engine and then deployed to Meta Quest 3 (Android) using Meta XR SDK",
     tags: [
       {
-        name: "Unity",
+        name: "unity",
         color: "blue-text-gradient",
       },
       {
@@ -228,7 +229,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Meta XR SDK",
+        name: "meta XR SDK",
         color: "pink-text-gradient",
       },
     ],
@@ -236,25 +237,25 @@ const projects = [
     source_code_link: "https://github.com/Mossata/Unpaid-Overtime-SSSS",
   },
   {
-    name: "Job IT",
+    name: "Personal Portfolio Website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The website you are currently looking at! This portfolio is a react based web app utilising tailwindCSS for styling and threejs packages to import and show 3D models.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tailwindCSS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "threejs",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link: "https://github.com/Mossata/Personal-Portfolio",
   },
 ];
 

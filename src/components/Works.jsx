@@ -60,7 +60,12 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          These projects below showcase what I am interested in and where I have the most skills and experience. Each project has a link to the corresponding code repository and demonstrations to explain my work. They reflect my experience across multiple technologies and show my ability to independently find solutions to complex problems.  
+          <p>
+            These projects below showcase what I am interested in and where I have the most skills and experience. Each project has a link to the corresponding code repository and demonstrations to explain my work. They reflect my experience across multiple technologies and show my ability to independently find solutions to complex problems.
+          </p>
+          <p className='text-red-200 mt-6'>
+            This section is a work in progress! I will of course add more projects here as I complete them. 
+          </p>
         </motion.p>
       </div>
 
